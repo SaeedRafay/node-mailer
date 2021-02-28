@@ -1,0 +1,27 @@
+{
+  "name": "node-mailer",
+  "version": "1.0.0",
+  "description": "A basic app to send emails from Node.js app with Nodemailer",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaeedRafay/node-mailer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaeedRafay/node-mailer/issues"
+  },
+  "homepage": "https://github.com/SaeedRafay/node-mailer#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "nodemailer": "^6.5.0"
+  }
+}
